@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dip.alibaba-inc.com/api/v2/schemas/221995/content",
+  "builder": {
+    "name": "@ali/builder-base",
+    "config": {
+      "outputDir": "dist",
+      "build": "npm run build"
+    }
+  },
+  "nodeVersion": 20,
+  "packageManager": "tnpm@9"
+}

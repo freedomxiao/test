@@ -1,0 +1,22 @@
+{
+  "extends": "@alife/magic-lint/dist/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@@/*": ["./src/.umi/*"]
+    }
+  },
+  "include": ["src/**/*", "typings/**/*", "typings.d.ts", "config/**/*"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "src/.umi/*",
+    "webpack",
+    "jest",
+    "/mock/**/*"
+  ]
+}
