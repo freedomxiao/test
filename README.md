@@ -9,12 +9,12 @@ XSwitch 配置
 {
   "proxy": [
     [
-      "https://(dev\\.)?g.alicdn.com/gts-fe/smartservice-partner/(.*?)/(.*.(js|css))$",
-      "https://127.0.0.1:13900/$3"
+      "https://(dev\\.)?g.alicdn.com/gts-fe/standard/(.*?)/(.*.(js|css))$",
+      "https://127.0.0.1:8080/$3"
     ],
     [
-      "https://(pre-)?smartservice.console.aliyun.com/(.*.(js|css))$",
-      "https://127.0.0.1:13900/$2"
+      "https://(pre-)?standard.console.aliyun.com/(.*.(js|css))$",
+      "https://127.0.0.1:8080/$2"
     ]
   ],
 }

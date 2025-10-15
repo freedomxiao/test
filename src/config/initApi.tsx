@@ -1,20 +1,20 @@
-// import { initFactory } from '@alife/magic-request';
-// import apiConfig from './api/api';
+import { initFactory } from '@alife/magic-request';
+import apiConfig from './api/api';
 
-// const getApiConfig = () => {
-//   return apiConfig;
-// };
+const getApiConfig = () => {
+  return apiConfig;
+};
 
-// export function initApi() {
-//   initFactory({
-//     apiConfig: getApiConfig(),
+export function initApi() {
+  initFactory({
+    apiConfig: getApiConfig(),
 
-//     commonConfig: {},
+    commonConfig: {},
 
-//     responseConfig: {},
+    responseConfig: {},
 
-//     requestConfig: {
-//     },
+    requestConfig: {
+    },
 
-//   });
-// }
+  });
+}
